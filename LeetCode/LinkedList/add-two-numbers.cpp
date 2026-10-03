@@ -1,3 +1,14 @@
+/*
+ * Problem: Add Two Numbers
+ * Question: https://leetcode.com/problems/add-two-numbers/description/
+ *
+ * Revision: Traverse both lists together, add corresponding digits with the
+ * carry, and append each result digit to a new linked list.
+ *
+ * Time: O(max(m, n))
+ * Auxiliary space: O(1), excluding the output list
+ */
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {

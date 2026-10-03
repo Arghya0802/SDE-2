@@ -1,3 +1,14 @@
+/*
+ * Problem: Merge K Sorted Lists
+ * Question: https://leetcode.com/problems/merge-k-sorted-lists/
+ *
+ * Revision: Keep the current smallest node from each list in a min-heap.
+ * Append the minimum node and then add that node's successor to the heap.
+ *
+ * Time: O(N log k), where N is the total number of nodes
+ * Auxiliary space: O(k)
+ */
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
